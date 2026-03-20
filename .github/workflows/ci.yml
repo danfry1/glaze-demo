@@ -15,4 +15,9 @@ jobs:
           node-version: "22"
       - run: npm ci
       - run: npx tsc --noEmit
-      - run: npx tsx src/task.test.ts
+      - name: Run tests
+        run: |
+          for f in src/*.test.ts; do
+            echo "Running $f..."
+            npx tsx "$f"
+          done
