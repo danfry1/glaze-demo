@@ -1,6 +1,6 @@
 {
   "name": "glaze-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple task tracker app",
   "main": "dist/index.js",
   "scripts": {
