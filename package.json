@@ -11,5 +11,9 @@
   },
   "keywords": ["task-tracker", "demo"],
   "author": "danfry1",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0"
+  }
 }
